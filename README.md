@@ -27,16 +27,6 @@ Un sitio de una sola página dedicado a **«El amenazado»**, poema de Jorge Lui
 └── README.md
 ```
 
-## Desarrollo local
-
-No requiere instalación ni build. Alcanza con abrir `index.html` en el navegador, o servir la carpeta con cualquier servidor estático:
-
-```bash
-python -m http.server 8000
-```
-
-y visitar `http://localhost:8000`.
-
 ## Publicación
 
 El sitio se sirve con **GitHub Pages** desde la rama `master`, raíz del repositorio (`/`). Cualquier `git push` a `master` se refleja automáticamente en unos minutos en:
